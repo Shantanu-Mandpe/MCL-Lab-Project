@@ -4,6 +4,8 @@ Task- Display characters on the LED pendulum which have been typed on the PC. Wh
 
 Detailed steps followed: When the user types text into the console window, it is sent via UART to the microcontroller which updates the text string on the LED pendulum “on the fly”. Another interrupt source could be a button which changes the font on the display or the background color if the input value is equal to the preset value.
 
+The microcontoller used for the project is the Tiva™ TM4C1294NCPDT Microcontroller
+
 ◼ Displays characters (0-9, A-Z) on the LED pendulum, which were previously typed into a console window on the PC
 
 ◼ Shows on the LED pendulum 10 characters during a swing from left to right (optional: and vice versa)
